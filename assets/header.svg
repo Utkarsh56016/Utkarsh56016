@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+<title id="title">Utkarsh Mishra — GPU and AI Infrastructure</title>
+<desc id="desc">Dark terminal-inspired banner with a cyan orbital motif, Kubernetes and Linux systems focus.</desc>
+<defs>
+ <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#18232e" stroke-width="1"/></pattern>
+ <radialGradient id="halo"><stop offset="0" stop-color="#53ddca" stop-opacity=".16"/><stop offset="1" stop-color="#53ddca" stop-opacity="0"/></radialGradient>
+ <linearGradient id="orbit"><stop stop-color="#214c58"/><stop offset=".48" stop-color="#8af2df"/><stop offset="1" stop-color="#315868"/></linearGradient>
+ <linearGradient id="line"><stop stop-color="#62e6ce"/><stop offset="1" stop-color="#62e6ce" stop-opacity="0"/></linearGradient>
+</defs>
+<rect x="1" y="1" width="1198" height="318" rx="16" fill="#0d1117" stroke="#2b3542"/>
+<rect x="2" y="2" width="1196" height="316" rx="15" fill="url(#grid)" opacity=".65"/>
+<path d="M18 49 H1182" stroke="#26313d"/>
+<circle cx="29" cy="26" r="5" fill="#ff6d6d"/><circle cx="48" cy="26" r="5" fill="#e6ba5e"/><circle cx="67" cy="26" r="5" fill="#62c885"/>
+<text x="94" y="31" font-family="monospace" font-size="13" fill="#91a0b2">utkarsh@linux: ~/systems</text>
+<text x="54" y="94" font-family="monospace" font-size="13" letter-spacing="2" fill="#67e5cf">GPU / AI INFRASTRUCTURE</text>
+<text x="50" y="158" font-family="Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="-1" fill="#eef3f9">Utkarsh Mishra</text>
+<text x="54" y="201" font-family="Arial, sans-serif" font-size="21" fill="#a6b4c5">Kubernetes. Linux. Systems underneath the models.</text>
+<path d="M54 227 H765" stroke="url(#line)" stroke-width="2"/>
+<text x="54" y="267" font-family="monospace" font-size="14" fill="#91a0b2"><tspan fill="#67e5cf">$ </tspan>build · break · debug · understand<tspan fill="#67e5cf"> _</tspan></text>
+<g transform="translate(1000 177)">
+ <circle r="158" fill="url(#halo)"/>
+ <circle r="73" fill="none" stroke="#253a46" stroke-width="1"/>
+ <circle r="98" fill="none" stroke="#23323f" stroke-width="1" stroke-dasharray="3 10"/>
+ <circle r="54" fill="#080c12" stroke="#83eedb" stroke-width="3"/>
+ <circle r="60" fill="none" stroke="#4b9f9b" stroke-opacity=".32" stroke-width="8"/>
+ <ellipse rx="133" ry="24" fill="none" stroke="url(#orbit)" stroke-width="4" transform="rotate(-27)"/>
+ <path d="M-48 26 A54 54 0 0 0 48-26" fill="none" stroke="#080c12" stroke-width="9"/>
+ <path d="M-47 26 A54 54 0 0 0 48-26" fill="none" stroke="#8af2df" stroke-width="3"/>
+ <circle cx="119" cy="-60" r="4" fill="#9af4e3"/>
+ <path d="M-144 -83 h15 M-136 -91 v15 M119 94 h12 M125 88 v12" stroke="#567181"/>
+</g>
+</svg>
