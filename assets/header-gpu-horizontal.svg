@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+<title id="title">Utkarsh Mishra · GPU and AI Infrastructure</title>
+<desc id="desc">Dark terminal-inspired banner with a horizontal, detailed teal dual-fan GPU line illustration. The swept fan blades rotate gently; reduced-motion preferences show a still illustration.</desc>
+<style>
+  .fan-animated { display: inline; }
+  .fan-static { display: none; }
+  @media (prefers-reduced-motion: reduce) {
+    .fan-animated { display: none; }
+    .fan-static { display: inline; }
+  }
+</style>
+<defs>
+ <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#18232e" stroke-width="1"/></pattern>
+ <radialGradient id="halo"><stop offset="0" stop-color="#53ddca" stop-opacity=".16"/><stop offset="1" stop-color="#53ddca" stop-opacity="0"/></radialGradient>
+ <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#183c3d"/><stop offset="1" stop-color="#0c2028"/></linearGradient>
+ <linearGradient id="line"><stop stop-color="#62e6ce"/><stop offset="1" stop-color="#62e6ce" stop-opacity="0"/></linearGradient>
+<g id="fan-blades"><g transform="rotate(0)">
+ <path d="M14 -13 C27 -25 35 -42 26 -54 C14 -60 1 -61 -12 -58 C0 -48 5 -27 14 -13 Z" fill="url(#blade-metal)" stroke="#9bdfd6" stroke-width=".95" stroke-linejoin="round"/>
+ <path d="M-9 -56 C1 -44 6 -27 14 -15 M25 -52 C28 -40 23 -26 16 -16" fill="none" stroke="#4e8c92" stroke-width=".7"/>
+ <path d="M-5 -51 l4 -2 M-2 -46 l4 -2 M0 -41 l4 -2 M2 -36 l4 -2 M4 -31 l4 -2 M6 -26 l4 -2 M8 -21 l4 -2" fill="none" stroke="#78b9b9" stroke-width=".65"/>
+</g>
+<g transform="rotate(36)">
+ <path d="M14 -13 C27 -25 35 -42 26 -54 C14 -60 1 -61 -12 -58 C0 -48 5 -27 14 -13 Z" fill="url(#blade-metal)" stroke="#9bdfd6" stroke-width=".95" stroke-linejoin="round"/>
+ <path d="M-9 -56 C1 -44 6 -27 14 -15 M25 -52 C28 -40 23 -26 16 -16" fill="none" stroke="#4e8c92" stroke-width=".7"/>
+ <path d="M-5 -51 l4 -2 M-2 -46 l4 -2 M0 -41 l4 -2 M2 -36 l4 -2 M4 -31 l4 -2 M6 -26 l4 -2 M8 -21 l4 -2" fill="none" stroke="#78b9b9" stroke-width=".65"/>
+</g>
+<g transform="rotate(72)">
+ <path d="M14 -13 C27 -25 35 -42 26 -54 C14 -60 1 -61 -12 -58 C0 -48 5 -27 14 -13 Z" fill="url(#blade-metal)" stroke="#9bdfd6" stroke-width=".95" stroke-linejoin="round"/>
+ <path d="M-9 -56 C1 -44 6 -27 14 -15 M25 -52 C28 -40 23 -26 16 -16" fill="none" stroke="#4e8c92" stroke-width=".7"/>
+ <path d="M-5 -51 l4 -2 M-2 -46 l4 -2 M0 -41 l4 -2 M2 -36 l4 -2 M4 -31 l4 -2 M6 -26 l4 -2 M8 -21 l4 -2" fill="none" stroke="#78b9b9" stroke-width=".65"/>
+</g>
+<g transform="rotate(108)">
+ <path d="M14 -13 C27 -25 35 -42 26 -54 C14 -60 1 -61 -12 -58 C0 -48 5 -27 14 -13 Z" fill="url(#blade-metal)" stroke="#9bdfd6" stroke-width=".95" stroke-linejoin="round"/>
+ <path d="M-9 -56 C1 -44 6 -27 14 -15 M25 -52 C28 -40 23 -26 16 -16" fill="none" stroke="#4e8c92" stroke-width=".7"/>
+ <path d="M-5 -51 l4 -2 M-2 -46 l4 -2 M0 -41 l4 -2 M2 -36 l4 -2 M4 -31 l4 -2 M6 -26 l4 -2 M8 -21 l4 -2" fill="none" stroke="#78b9b9" stroke-width=".65"/>
+</g>
+<g transform="rotate(144)">
+ <path d="M14 -13 C27 -25 35 -42 26 -54 C14 -60 1 -61 -12 -58 C0 -48 5 -27 14 -13 Z" fill="url(#blade-metal)" stroke="#9bdfd6" stroke-width=".95" stroke-linejoin="round"/>
+ <path d="M-9 -56 C1 -44 6 -27 14 -15 M25 -52 C28 -40 23 -26 16 -16" fill="none" stroke="#4e8c92" stroke-width=".7"/>
+ <path d="M-5 -51 l4 -2 M-2 -46 l4 -2 M0 -41 l4 -2 M2 -36 l4 -2 M4 -31 l4 -2 M6 -26 l4 -2 M8 -21 l4 -2" fill="none" stroke="#78b9b9" stroke-width=".65"/>
+</g>
+<g transform="rotate(180)">
+ <path d="M14 -13 C27 -25 35 -42 26 -54 C14 -60 1 -61 -12 -58 C0 -48 5 -27 14 -13 Z" fill="url(#blade-metal)" stroke="#9bdfd6" stroke-width=".95" stroke-linejoin="round"/>
+ <path d="M-9 -56 C1 -44 6 -27 14 -15 M25 -52 C28 -40 23 -26 16 -16" fill="none" stroke="#4e8c92" stroke-width=".7"/>
+ <path d="M-5 -51 l4 -2 M-2 -46 l4 -2 M0 -41 l4 -2 M2 -36 l4 -2 M4 -31 l4 -2 M6 -26 l4 -2 M8 -21 l4 -2" fill="none" stroke="#78b9b9" stroke-width=".65"/>
+</g>
+<g transform="rotate(216)">
+ <path d="M14 -13 C27 -25 35 -42 26 -54 C14 -60 1 -61 -12 -58 C0 -48 5 -27 14 -13 Z" fill="url(#blade-metal)" stroke="#9bdfd6" stroke-width=".95" stroke-linejoin="round"/>
+ <path d="M-9 -56 C1 -44 6 -27 14 -15 M25 -52 C28 -40 23 -26 16 -16" fill="none" stroke="#4e8c92" stroke-width=".7"/>
+ <path d="M-5 -51 l4 -2 M-2 -46 l4 -2 M0 -41 l4 -2 M2 -36 l4 -2 M4 -31 l4 -2 M6 -26 l4 -2 M8 -21 l4 -2" fill="none" stroke="#78b9b9" stroke-width=".65"/>
+</g>
+<g transform="rotate(252)">
+ <path d="M14 -13 C27 -25 35 -42 26 -54 C14 -60 1 -61 -12 -58 C0 -48 5 -27 14 -13 Z" fill="url(#blade-metal)" stroke="#9bdfd6" stroke-width=".95" stroke-linejoin="round"/>
+ <path d="M-9 -56 C1 -44 6 -27 14 -15 M25 -52 C28 -40 23 -26 16 -16" fill="none" stroke="#4e8c92" stroke-width=".7"/>
+ <path d="M-5 -51 l4 -2 M-2 -46 l4 -2 M0 -41 l4 -2 M2 -36 l4 -2 M4 -31 l4 -2 M6 -26 l4 -2 M8 -21 l4 -2" fill="none" stroke="#78b9b9" stroke-width=".65"/>
+</g>
+<g transform="rotate(288)">
+ <path d="M14 -13 C27 -25 35 -42 26 -54 C14 -60 1 -61 -12 -58 C0 -48 5 -27 14 -13 Z" fill="url(#blade-metal)" stroke="#9bdfd6" stroke-width=".95" stroke-linejoin="round"/>
+ <path d="M-9 -56 C1 -44 6 -27 14 -15 M25 -52 C28 -40 23 -26 16 -16" fill="none" stroke="#4e8c92" stroke-width=".7"/>
+ <path d="M-5 -51 l4 -2 M-2 -46 l4 -2 M0 -41 l4 -2 M2 -36 l4 -2 M4 -31 l4 -2 M6 -26 l4 -2 M8 -21 l4 -2" fill="none" stroke="#78b9b9" stroke-width=".65"/>
+</g>
+<g transform="rotate(324)">
+ <path d="M14 -13 C27 -25 35 -42 26 -54 C14 -60 1 -61 -12 -58 C0 -48 5 -27 14 -13 Z" fill="url(#blade-metal)" stroke="#9bdfd6" stroke-width=".95" stroke-linejoin="round"/>
+ <path d="M-9 -56 C1 -44 6 -27 14 -15 M25 -52 C28 -40 23 -26 16 -16" fill="none" stroke="#4e8c92" stroke-width=".7"/>
+ <path d="M-5 -51 l4 -2 M-2 -46 l4 -2 M0 -41 l4 -2 M2 -36 l4 -2 M4 -31 l4 -2 M6 -26 l4 -2 M8 -21 l4 -2" fill="none" stroke="#78b9b9" stroke-width=".65"/>
+</g></g>
+ <linearGradient id="blade-metal" x1="0%" y1="0%" x2="100%" y2="100%"><stop stop-color="#244e55"/><stop offset="1" stop-color="#102a34"/></linearGradient>
+ <linearGradient id="shroud-metal" x1="0%" y1="0%" x2="0%" y2="100%"><stop stop-color="#142b34"/><stop offset=".48" stop-color="#0b1922"/><stop offset="1" stop-color="#183139"/></linearGradient>
+</defs>
+<rect x="1" y="1" width="1198" height="318" rx="16" fill="#0d1117" stroke="#2b3542"/>
+<rect x="2" y="2" width="1196" height="316" rx="15" fill="url(#grid)" opacity=".65"/>
+<path d="M18 49 H1182" stroke="#26313d"/>
+<circle cx="29" cy="26" r="5" fill="#ff6d6d"/><circle cx="48" cy="26" r="5" fill="#e6ba5e"/><circle cx="67" cy="26" r="5" fill="#62c885"/>
+<text x="94" y="31" font-family="monospace" font-size="13" fill="#91a0b2">utkarsh@linux: ~/systems</text>
+<text x="54" y="94" font-family="monospace" font-size="13" letter-spacing="2" fill="#67e5cf">GPU / AI INFRASTRUCTURE</text>
+<text x="50" y="158" font-family="Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="-1" fill="#eef3f9">Utkarsh Mishra</text>
+<text x="54" y="201" font-family="Arial, sans-serif" font-size="21" fill="#a6b4c5">Kubernetes. Linux. Systems underneath the models.</text>
+<path d="M54 227 H765" stroke="url(#line)" stroke-width="2"/>
+<text x="54" y="267" font-family="monospace" font-size="14" fill="#91a0b2"><tspan fill="#67e5cf">$ </tspan>build · break · debug · understand<tspan fill="#67e5cf"> _</tspan></text>
+<g aria-label="Horizontal detailed dual-fan GPU illustration">
+ <circle cx="1003" cy="180" r="158" fill="url(#halo)"/>
+ <path d="M822 96 h24 v-12 h39 M1130 86 h39 v25 M822 262 h24 v9 h38 M1132 272 h37 v-20" fill="none" stroke="#31515a"/>
+ <g transform="translate(827 105)">
+  <rect x="5" y="8" width="337" height="154" rx="10" fill="#050b10" opacity=".7"/>
+  <path d="M0 142 L6 156 H331 L342 145 V11 L332 0 Z" fill="#10262f" stroke="#3b6169" stroke-width="1"/>
+  <rect width="336" height="152" rx="9" fill="url(#shroud-metal)" stroke="#9bded2" stroke-width="1.5"/>
+  <path d="M13 5 H323 Q331 5 331 13 V139 Q331 147 323 147 H13 Q5 147 5 139 V13 Q5 5 13 5 Z" fill="none" stroke="#3f737a" stroke-width=".8"/>
+  <g stroke="#4b8587" stroke-width=".65"><path d="M22 6 v4 M22 142 v4"/><path d="M32.8 6 v4 M32.8 142 v4"/><path d="M43.6 6 v4 M43.6 142 v4"/><path d="M54.400000000000006 6 v4 M54.400000000000006 142 v4"/><path d="M65.2 6 v4 M65.2 142 v4"/><path d="M76 6 v4 M76 142 v4"/><path d="M86.80000000000001 6 v4 M86.80000000000001 142 v4"/><path d="M97.60000000000001 6 v4 M97.60000000000001 142 v4"/><path d="M108.4 6 v4 M108.4 142 v4"/><path d="M119.2 6 v4 M119.2 142 v4"/><path d="M130 6 v4 M130 142 v4"/><path d="M140.8 6 v4 M140.8 142 v4"/><path d="M151.60000000000002 6 v4 M151.60000000000002 142 v4"/><path d="M162.4 6 v4 M162.4 142 v4"/><path d="M173.20000000000002 6 v4 M173.20000000000002 142 v4"/><path d="M184 6 v4 M184 142 v4"/><path d="M194.8 6 v4 M194.8 142 v4"/><path d="M205.60000000000002 6 v4 M205.60000000000002 142 v4"/><path d="M216.4 6 v4 M216.4 142 v4"/><path d="M227.20000000000002 6 v4 M227.20000000000002 142 v4"/><path d="M238 6 v4 M238 142 v4"/><path d="M248.8 6 v4 M248.8 142 v4"/><path d="M259.6 6 v4 M259.6 142 v4"/><path d="M270.4 6 v4 M270.4 142 v4"/><path d="M281.20000000000005 6 v4 M281.20000000000005 142 v4"/><path d="M292 6 v4 M292 142 v4"/><path d="M302.8 6 v4 M302.8 142 v4"/><path d="M313.6 6 v4 M313.6 142 v4"/></g>
+  <path d="M148 8 L160 19 H176 L188 8 M149 144 L160 133 H176 L187 144 M154 49 L165 42 H171 L182 49 M154 103 L165 110 H171 L182 103" fill="none" stroke="#6ba9a7" stroke-width="1.1"/>
+  <path d="M160 22 h16 M163 26 h10 M162 129 h12 M160 133 h16 M161 63 h14 M161 69 h14 M161 75 h14 M161 81 h14 M161 87 h14" stroke="#4c7d83" stroke-width="1"/>
+  <g transform="translate(86 76)">
+ <circle r="67" fill="#08141d" stroke="#a5ded4" stroke-width="1.35"/>
+ <circle r="64" fill="none" stroke="#4f9194" stroke-width=".8"/>
+ <circle r="60.5" fill="#0b1b23" stroke="#76bbb9" stroke-width=".85"/>
+ <g stroke="#548b8e" stroke-width=".7"><path d="M0 -64 v3.5" transform="rotate(0)"/><path d="M0 -64 v1.8" transform="rotate(11.25)"/><path d="M0 -64 v1.8" transform="rotate(22.5)"/><path d="M0 -64 v1.8" transform="rotate(33.75)"/><path d="M0 -64 v3.5" transform="rotate(45)"/><path d="M0 -64 v1.8" transform="rotate(56.25)"/><path d="M0 -64 v1.8" transform="rotate(67.5)"/><path d="M0 -64 v1.8" transform="rotate(78.75)"/><path d="M0 -64 v3.5" transform="rotate(90)"/><path d="M0 -64 v1.8" transform="rotate(101.25)"/><path d="M0 -64 v1.8" transform="rotate(112.5)"/><path d="M0 -64 v1.8" transform="rotate(123.75)"/><path d="M0 -64 v3.5" transform="rotate(135)"/><path d="M0 -64 v1.8" transform="rotate(146.25)"/><path d="M0 -64 v1.8" transform="rotate(157.5)"/><path d="M0 -64 v1.8" transform="rotate(168.75)"/><path d="M0 -64 v3.5" transform="rotate(180)"/><path d="M0 -64 v1.8" transform="rotate(191.25)"/><path d="M0 -64 v1.8" transform="rotate(202.5)"/><path d="M0 -64 v1.8" transform="rotate(213.75)"/><path d="M0 -64 v3.5" transform="rotate(225)"/><path d="M0 -64 v1.8" transform="rotate(236.25)"/><path d="M0 -64 v1.8" transform="rotate(247.5)"/><path d="M0 -64 v1.8" transform="rotate(258.75)"/><path d="M0 -64 v3.5" transform="rotate(270)"/><path d="M0 -64 v1.8" transform="rotate(281.25)"/><path d="M0 -64 v1.8" transform="rotate(292.5)"/><path d="M0 -64 v1.8" transform="rotate(303.75)"/><path d="M0 -64 v3.5" transform="rotate(315)"/><path d="M0 -64 v1.8" transform="rotate(326.25)"/><path d="M0 -64 v1.8" transform="rotate(337.5)"/><path d="M0 -64 v1.8" transform="rotate(348.75)"/></g>
+ <g class="fan-animated"><animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="7s" repeatCount="indefinite"/><use href="#fan-blades"/></g>
+ <g class="fan-static"><use href="#fan-blades"/></g>
+ <circle r="20" fill="#0a1a23" stroke="#a2e0d6" stroke-width="1.2"/>
+ <circle r="16" fill="#1b3b44" stroke="#579d9f" stroke-width=".8"/>
+ <circle r="12.5" fill="#102733" stroke="#a6d8ce" stroke-width=".9"/>
+ <circle r="3" fill="#0d1b23" stroke="#70aba9" stroke-width=".7"/>
+ <path d="M-6 -6 q6 -4 12 0 M-6 6 q6 4 12 0" fill="none" stroke="#4e8d91" stroke-width=".8"/>
+</g>
+  <g transform="translate(250 76)">
+ <circle r="67" fill="#08141d" stroke="#a5ded4" stroke-width="1.35"/>
+ <circle r="64" fill="none" stroke="#4f9194" stroke-width=".8"/>
+ <circle r="60.5" fill="#0b1b23" stroke="#76bbb9" stroke-width=".85"/>
+ <g stroke="#548b8e" stroke-width=".7"><path d="M0 -64 v3.5" transform="rotate(0)"/><path d="M0 -64 v1.8" transform="rotate(11.25)"/><path d="M0 -64 v1.8" transform="rotate(22.5)"/><path d="M0 -64 v1.8" transform="rotate(33.75)"/><path d="M0 -64 v3.5" transform="rotate(45)"/><path d="M0 -64 v1.8" transform="rotate(56.25)"/><path d="M0 -64 v1.8" transform="rotate(67.5)"/><path d="M0 -64 v1.8" transform="rotate(78.75)"/><path d="M0 -64 v3.5" transform="rotate(90)"/><path d="M0 -64 v1.8" transform="rotate(101.25)"/><path d="M0 -64 v1.8" transform="rotate(112.5)"/><path d="M0 -64 v1.8" transform="rotate(123.75)"/><path d="M0 -64 v3.5" transform="rotate(135)"/><path d="M0 -64 v1.8" transform="rotate(146.25)"/><path d="M0 -64 v1.8" transform="rotate(157.5)"/><path d="M0 -64 v1.8" transform="rotate(168.75)"/><path d="M0 -64 v3.5" transform="rotate(180)"/><path d="M0 -64 v1.8" transform="rotate(191.25)"/><path d="M0 -64 v1.8" transform="rotate(202.5)"/><path d="M0 -64 v1.8" transform="rotate(213.75)"/><path d="M0 -64 v3.5" transform="rotate(225)"/><path d="M0 -64 v1.8" transform="rotate(236.25)"/><path d="M0 -64 v1.8" transform="rotate(247.5)"/><path d="M0 -64 v1.8" transform="rotate(258.75)"/><path d="M0 -64 v3.5" transform="rotate(270)"/><path d="M0 -64 v1.8" transform="rotate(281.25)"/><path d="M0 -64 v1.8" transform="rotate(292.5)"/><path d="M0 -64 v1.8" transform="rotate(303.75)"/><path d="M0 -64 v3.5" transform="rotate(315)"/><path d="M0 -64 v1.8" transform="rotate(326.25)"/><path d="M0 -64 v1.8" transform="rotate(337.5)"/><path d="M0 -64 v1.8" transform="rotate(348.75)"/></g>
+ <g class="fan-animated"><animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="7s" repeatCount="indefinite"/><use href="#fan-blades"/></g>
+ <g class="fan-static"><use href="#fan-blades"/></g>
+ <circle r="20" fill="#0a1a23" stroke="#a2e0d6" stroke-width="1.2"/>
+ <circle r="16" fill="#1b3b44" stroke="#579d9f" stroke-width=".8"/>
+ <circle r="12.5" fill="#102733" stroke="#a6d8ce" stroke-width=".9"/>
+ <circle r="3" fill="#0d1b23" stroke="#70aba9" stroke-width=".7"/>
+ <path d="M-6 -6 q6 -4 12 0 M-6 6 q6 4 12 0" fill="none" stroke="#4e8d91" stroke-width=".8"/>
+</g>
+  <path d="M20 153 h292 v8 H20 Z" fill="#0e2932" stroke="#4b797c" stroke-width=".8"/>
+  <path d="M29 156 h25 M261 156 h37 M30 163 h15 v4 h12 M279 163 h18 v4 h10" fill="none" stroke="#70aaa5" stroke-width=".7"/>
+  <path d="M62 153 h189 v16 H62 Z" fill="#17343a" stroke="#5c8482" stroke-width=".9"/>
+  <path d="M68 158 v8" stroke="#9ebfb1" stroke-width="2.6"/><path d="M74 158 v8" stroke="#9ebfb1" stroke-width="2.6"/><path d="M80 158 v8" stroke="#9ebfb1" stroke-width="2.6"/><path d="M86 158 v8" stroke="#9ebfb1" stroke-width="2.6"/><path d="M92 158 v8" stroke="#9ebfb1" stroke-width="2.6"/><path d="M98 158 v8" stroke="#9ebfb1" stroke-width="2.6"/><path d="M104 158 v8" stroke="#9ebfb1" stroke-width="2.6"/><path d="M110 158 v8" stroke="#9ebfb1" stroke-width="2.6"/><path d="M116 158 v8" stroke="#9ebfb1" stroke-width="2.6"/><path d="M122 158 v8" stroke="#9ebfb1" stroke-width="2.6"/><path d="M128 158 v8" stroke="#9ebfb1" stroke-width="2.6"/><path d="M134 158 v8" stroke="#9ebfb1" stroke-width="2.6"/><path d="M140 158 v8" stroke="#9ebfb1" stroke-width="2.6"/><path d="M146 158 v8" stroke="#9ebfb1" stroke-width="2.6"/><path d="M152 158 v8" stroke="#9ebfb1" stroke-width="2.6"/><path d="M158 158 v8" stroke="#9ebfb1" stroke-width="2.6"/><path d="M164 158 v8" stroke="#9ebfb1" stroke-width="2.6"/><path d="M170 158 v8" stroke="#9ebfb1" stroke-width="2.6"/><path d="M176 158 v8" stroke="#9ebfb1" stroke-width="2.6"/><path d="M182 158 v8" stroke="#9ebfb1" stroke-width="2.6"/><path d="M188 158 v8" stroke="#9ebfb1" stroke-width="2.6"/><path d="M194 158 v8" stroke="#9ebfb1" stroke-width="2.6"/><path d="M200 158 v8" stroke="#9ebfb1" stroke-width="2.6"/><path d="M206 158 v8" stroke="#9ebfb1" stroke-width="2.6"/><path d="M212 158 v8" stroke="#9ebfb1" stroke-width="2.6"/><path d="M218 158 v8" stroke="#9ebfb1" stroke-width="2.6"/><path d="M224 158 v8" stroke="#9ebfb1" stroke-width="2.6"/><path d="M230 158 v8" stroke="#9ebfb1" stroke-width="2.6"/><path d="M236 158 v8" stroke="#9ebfb1" stroke-width="2.6"/><path d="M242 158 v8" stroke="#9ebfb1" stroke-width="2.6"/>
+  <path d="M137 153 v16" stroke="#0d1117" stroke-width="4.5"/>
+  <rect x="-11" y="-4" width="11" height="166" rx="2" fill="#18313b" stroke="#a1ccc7" stroke-width="1.1"/>
+  <path d="M-11 -4 h-9 v-6 h15 q5 0 5 6 M-7 5 v144" fill="none" stroke="#91bdb9" stroke-width="1"/>
+  <rect x="-17" y="20" width="6" height="21" rx="1" fill="#142831" stroke="#709d9f" stroke-width=".8"/>
+  <rect x="-17" y="56" width="6" height="21" rx="1" fill="#142831" stroke="#709d9f" stroke-width=".8"/>
+  <rect x="-17" y="92" width="6" height="21" rx="1" fill="#142831" stroke="#709d9f" stroke-width=".8"/>
+  <path d="M-7 118 v25" stroke="#476d75" stroke-width="2"/>
+  <g transform="translate(10 12)"><circle r="3.8" fill="#0a1921" stroke="#97c6bf" stroke-width=".9"/><path d="M-1.8 -1.8 l3.6 3.6 M-1.8 1.8 l3.6 -3.6" stroke="#6a999a" stroke-width=".65"/></g><g transform="translate(326 12)"><circle r="3.8" fill="#0a1921" stroke="#97c6bf" stroke-width=".9"/><path d="M-1.8 -1.8 l3.6 3.6 M-1.8 1.8 l3.6 -3.6" stroke="#6a999a" stroke-width=".65"/></g><g transform="translate(10 140)"><circle r="3.8" fill="#0a1921" stroke="#97c6bf" stroke-width=".9"/><path d="M-1.8 -1.8 l3.6 3.6 M-1.8 1.8 l3.6 -3.6" stroke="#6a999a" stroke-width=".65"/></g><g transform="translate(326 140)"><circle r="3.8" fill="#0a1921" stroke="#97c6bf" stroke-width=".9"/><path d="M-1.8 -1.8 l3.6 3.6 M-1.8 1.8 l3.6 -3.6" stroke="#6a999a" stroke-width=".65"/></g>
+ </g>
+ <text x="995" y="294" text-anchor="middle" font-family="monospace" font-size="10.5" letter-spacing="2.2" fill="#72b4ad">GPU / COMPUTE</text>
+</g>
+</svg>
