@@ -33,6 +33,19 @@ My interests run from model execution and GPU scheduling down to container runti
 | **[GPU Execution Experiments](https://github.com/Utkarsh56016/Model_execution_learn)** | Small PyTorch experiments exploring data-loading bottlenecks, pinned memory, CUDA streams, autograd overhead, and memory caching. |
 | **[zenctl · Linux CPU Control](https://github.com/Utkarsh56016/Zenctl)** | An AMD CPU control CLI with frequency profiles, governor/boost management, sysfs validation, and dry-run support. |
 
+### Flagship roadmap & lab infrastructure
+
+Three flagship projects follow the GPU lifecycle: **allocate → trust → serve**. The unified lab provides the planned environment for repeatable systems experiments.
+
+| Project | Engineering focus | Current stage |
+| :--- | :--- | :--- |
+| **01 · CONTROL — GPU Platform Control Plane** | Kubernetes-native GPU requests, tenant quotas, queues, fairness, and fragmentation-aware allocation. A deterministic control plane comes first, followed by a bounded decision-intelligence experiment. | **Study & design** |
+| **02 · TRUST — GPU Fleet Reliability & Lifecycle System** | GPU health telemetry, degraded-capacity detection, quarantine, deterministic diagnostics, recovery validation, and controlled fault injection. | **Planned** |
+| **03 · EFFICIENCY — Production LLM Inference & Capacity Platform** | LLM serving, batching and KV-cache behavior, latency SLOs, demand-aware scaling, saturation benchmarks, and useful work per GPU. | **Planned** |
+| **Unified GPU & Systems Lab** | A reusable QEMU/KVM + libvirt VM factory: a sealed Ubuntu golden image, independent qcow2 overlays, cloud-init identities, persistent/disposable profiles, exclusive RTX passthrough, and a future thin `labctl` interface. | **Design approved · preflight next** |
+
+<sub>Public implementation repositories and measured results will be linked as each project reaches its validation milestones.</sub>
+
 ### Infrastructure experience · Piramal Finance
 
 - **Availability:** contributed to expanding Kubernetes control-plane and etcd membership **1 → 3**, then validated API failover on both GPU workers.
