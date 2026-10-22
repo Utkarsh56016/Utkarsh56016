@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Utkarsh Mishra — GPU infrastructure, Kubernetes, Linux systems" width="100%" />
+  <img src="./assets/header.svg" alt="Utkarsh Mishra · GPU infrastructure, Kubernetes, Linux systems" width="100%" />
 </p>
 
 <p align="center">
@@ -39,9 +39,9 @@ Three flagship projects follow the GPU lifecycle: **allocate → trust → serve
 
 | Project | Engineering focus | Current stage |
 | :--- | :--- | :--- |
-| **01 · CONTROL — GPU Platform Control Plane** | Kubernetes-native GPU requests, tenant quotas, queues, fairness, and fragmentation-aware allocation. A deterministic control plane comes first, followed by a bounded decision-intelligence experiment. | **Study & design** |
-| **02 · TRUST — GPU Fleet Reliability & Lifecycle System** | GPU health telemetry, degraded-capacity detection, quarantine, deterministic diagnostics, recovery validation, and controlled fault injection. | **Planned** |
-| **03 · EFFICIENCY — Production LLM Inference & Capacity Platform** | LLM serving, batching and KV-cache behavior, latency SLOs, demand-aware scaling, saturation benchmarks, and useful work per GPU. | **Planned** |
+| **01 · CONTROL · GPU Platform Control Plane** | Kubernetes-native GPU requests, tenant quotas, queues, fairness, and fragmentation-aware allocation. A deterministic control plane comes first, followed by a bounded decision-intelligence experiment. | **Study & design** |
+| **02 · TRUST · GPU Fleet Reliability & Lifecycle System** | GPU health telemetry, degraded-capacity detection, quarantine, deterministic diagnostics, recovery validation, and controlled fault injection. | **Planned** |
+| **03 · EFFICIENCY · Production LLM Inference & Capacity Platform** | LLM serving, batching and KV-cache behavior, latency SLOs, demand-aware scaling, saturation benchmarks, and useful work per GPU. | **Planned** |
 | **Unified GPU & Systems Lab** | A reusable QEMU/KVM + libvirt VM factory: a sealed Ubuntu golden image, independent qcow2 overlays, cloud-init identities, persistent/disposable profiles, exclusive RTX passthrough, and a future thin `labctl` interface. | **Design approved · preflight next** |
 
 <sub>Public implementation repositories and measured results will be linked as each project reaches its validation milestones.</sub>
