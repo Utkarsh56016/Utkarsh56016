@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header-gpu-fans.svg" alt="Utkarsh Mishra · GPU infrastructure, Kubernetes, Linux systems" width="100%" />
+  <img src="./assets/header-gpu-horizontal.svg" alt="Utkarsh Mishra · GPU infrastructure, Kubernetes, Linux systems" width="100%" />
 </p>
 
 <p align="center">
