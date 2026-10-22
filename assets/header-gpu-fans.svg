@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+<title id="title">Utkarsh Mishra · GPU and AI Infrastructure</title>
+<desc id="desc">Dark terminal-inspired banner with a teal dual-fan GPU line illustration. The fans rotate gently; reduced-motion preferences show a still illustration.</desc>
+<style>
+  .fan-animated { display: inline; }
+  .fan-static { display: none; }
+  @media (prefers-reduced-motion: reduce) {
+    .fan-animated { display: none; }
+    .fan-static { display: inline; }
+  }
+</style>
+<defs>
+ <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#18232e" stroke-width="1"/></pattern>
+ <radialGradient id="halo"><stop offset="0" stop-color="#53ddca" stop-opacity=".16"/><stop offset="1" stop-color="#53ddca" stop-opacity="0"/></radialGradient>
+ <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#183c3d"/><stop offset="1" stop-color="#0c2028"/></linearGradient>
+ <linearGradient id="line"><stop stop-color="#62e6ce"/><stop offset="1" stop-color="#62e6ce" stop-opacity="0"/></linearGradient>
+<g id="fan-blades"><path d="M8 -14 C18 -22 19 -34 5 -42 C-8 -42 -18 -35 -20 -27 C-6 -30 4 -24 8 -14 Z" transform="rotate(0)" fill="#1d4146" stroke="#91d8d0" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M8 -14 C18 -22 19 -34 5 -42 C-8 -42 -18 -35 -20 -27 C-6 -30 4 -24 8 -14 Z" transform="rotate(40)" fill="#1d4146" stroke="#91d8d0" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M8 -14 C18 -22 19 -34 5 -42 C-8 -42 -18 -35 -20 -27 C-6 -30 4 -24 8 -14 Z" transform="rotate(80)" fill="#1d4146" stroke="#91d8d0" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M8 -14 C18 -22 19 -34 5 -42 C-8 -42 -18 -35 -20 -27 C-6 -30 4 -24 8 -14 Z" transform="rotate(120)" fill="#1d4146" stroke="#91d8d0" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M8 -14 C18 -22 19 -34 5 -42 C-8 -42 -18 -35 -20 -27 C-6 -30 4 -24 8 -14 Z" transform="rotate(160)" fill="#1d4146" stroke="#91d8d0" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M8 -14 C18 -22 19 -34 5 -42 C-8 -42 -18 -35 -20 -27 C-6 -30 4 -24 8 -14 Z" transform="rotate(200)" fill="#1d4146" stroke="#91d8d0" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M8 -14 C18 -22 19 -34 5 -42 C-8 -42 -18 -35 -20 -27 C-6 -30 4 -24 8 -14 Z" transform="rotate(240)" fill="#1d4146" stroke="#91d8d0" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M8 -14 C18 -22 19 -34 5 -42 C-8 -42 -18 -35 -20 -27 C-6 -30 4 -24 8 -14 Z" transform="rotate(280)" fill="#1d4146" stroke="#91d8d0" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M8 -14 C18 -22 19 -34 5 -42 C-8 -42 -18 -35 -20 -27 C-6 -30 4 -24 8 -14 Z" transform="rotate(320)" fill="#1d4146" stroke="#91d8d0" stroke-width="1.2" stroke-linejoin="round"/></g>
+</defs>
+<rect x="1" y="1" width="1198" height="318" rx="16" fill="#0d1117" stroke="#2b3542"/>
+<rect x="2" y="2" width="1196" height="316" rx="15" fill="url(#grid)" opacity=".65"/>
+<path d="M18 49 H1182" stroke="#26313d"/>
+<circle cx="29" cy="26" r="5" fill="#ff6d6d"/><circle cx="48" cy="26" r="5" fill="#e6ba5e"/><circle cx="67" cy="26" r="5" fill="#62c885"/>
+<text x="94" y="31" font-family="monospace" font-size="13" fill="#91a0b2">utkarsh@linux: ~/systems</text>
+<text x="54" y="94" font-family="monospace" font-size="13" letter-spacing="2" fill="#67e5cf">GPU / AI INFRASTRUCTURE</text>
+<text x="50" y="158" font-family="Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="-1" fill="#eef3f9">Utkarsh Mishra</text>
+<text x="54" y="201" font-family="Arial, sans-serif" font-size="21" fill="#a6b4c5">Kubernetes. Linux. Systems underneath the models.</text>
+<path d="M54 227 H765" stroke="url(#line)" stroke-width="2"/>
+<text x="54" y="267" font-family="monospace" font-size="14" fill="#91a0b2"><tspan fill="#67e5cf">$ </tspan>build · break · debug · understand<tspan fill="#67e5cf"> _</tspan></text>
+<g aria-label="Dual-fan GPU illustration">
+ <circle cx="1003" cy="180" r="158" fill="url(#halo)"/>
+ <path d="M845 95 h22 v-12 h44 M1116 90 h40 v28 M850 254 h25 v17 h39 M1110 263 h44 v-27" fill="none" stroke="#31515a"/>
+ <g transform="translate(848 123) rotate(-8)">
+  <rect x="7" y="10" width="292" height="132" rx="9" fill="#050b10" opacity=".65"/>
+  <path d="M0 124 L8 136 H288 L296 124 V8 L288 0 Z" fill="#10242c" stroke="#335961"/>
+  <rect x="0" y="0" width="290" height="128" rx="8" fill="#0d1a22" stroke="#91dbd0" stroke-width="1.6"/>
+  <path d="M12 8 H278 V120 H12 Z" fill="none" stroke="#36585e"/>
+  <path d="M131 9 L147 23 L159 9 M132 118 L146 103 L160 118 M132 49 L145 39 L158 49 M132 80 L145 90 L158 80" fill="none" stroke="#71aea8" stroke-width="1.4"/>
+  <path d="M139 17 h14 M140 21 h12 M139 109 h14 M141 105 h10 M139 58 h14 M139 64 h14 M139 70 h14" stroke="#4a7e80"/>
+  <g transform="translate(79 64)">
+ <circle r="51" fill="#09151d" stroke="#7ed8cc" stroke-width="1.6"/>
+ <circle r="46" fill="none" stroke="#315b63"/>
+ <g class="fan-animated"><animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="5.5s" repeatCount="indefinite"/><use href="#fan-blades"/></g>
+ <g class="fan-static"><use href="#fan-blades"/></g>
+ <circle r="13" fill="#132e36" stroke="#a7e6db" stroke-width="1.7"/>
+ <circle r="8" fill="#0d1d28" stroke="#416c72"/>
+ <path d="M-4 -2 h8 M-4 2 h8" stroke="#7ae1cd" stroke-width="1.3"/>
+</g>
+  <g transform="translate(214 64)">
+ <circle r="51" fill="#09151d" stroke="#7ed8cc" stroke-width="1.6"/>
+ <circle r="46" fill="none" stroke="#315b63"/>
+ <g class="fan-animated"><animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="5.5s" repeatCount="indefinite"/><use href="#fan-blades"/></g>
+ <g class="fan-static"><use href="#fan-blades"/></g>
+ <circle r="13" fill="#132e36" stroke="#a7e6db" stroke-width="1.7"/>
+ <circle r="8" fill="#0d1d28" stroke="#416c72"/>
+ <path d="M-4 -2 h8 M-4 2 h8" stroke="#7ae1cd" stroke-width="1.3"/>
+</g>
+  <rect x="-8" y="-7" width="9" height="147" rx="2" fill="#152d36" stroke="#92b9b9"/>
+  <path d="M-8 -7 h-8 v-6 h12 q5 0 5 6 M-12 13 v18 M-12 46 v18 M-12 80 v18" fill="none" stroke="#92b9b9" stroke-width="1.6"/>
+  <path d="M56 129 h154 v16 H56 Z" fill="#173239" stroke="#426265"/>
+  <path d="M61 135 v8" stroke="#99b8aa" stroke-width="2"/><path d="M67 135 v8" stroke="#99b8aa" stroke-width="2"/><path d="M73 135 v8" stroke="#99b8aa" stroke-width="2"/><path d="M79 135 v8" stroke="#99b8aa" stroke-width="2"/><path d="M85 135 v8" stroke="#99b8aa" stroke-width="2"/><path d="M91 135 v8" stroke="#99b8aa" stroke-width="2"/><path d="M97 135 v8" stroke="#99b8aa" stroke-width="2"/><path d="M103 135 v8" stroke="#99b8aa" stroke-width="2"/><path d="M109 135 v8" stroke="#99b8aa" stroke-width="2"/><path d="M115 135 v8" stroke="#99b8aa" stroke-width="2"/><path d="M121 135 v8" stroke="#99b8aa" stroke-width="2"/><path d="M127 135 v8" stroke="#99b8aa" stroke-width="2"/><path d="M133 135 v8" stroke="#99b8aa" stroke-width="2"/><path d="M139 135 v8" stroke="#99b8aa" stroke-width="2"/><path d="M145 135 v8" stroke="#99b8aa" stroke-width="2"/><path d="M151 135 v8" stroke="#99b8aa" stroke-width="2"/><path d="M157 135 v8" stroke="#99b8aa" stroke-width="2"/><path d="M163 135 v8" stroke="#99b8aa" stroke-width="2"/><path d="M169 135 v8" stroke="#99b8aa" stroke-width="2"/><path d="M175 135 v8" stroke="#99b8aa" stroke-width="2"/><path d="M181 135 v8" stroke="#99b8aa" stroke-width="2"/><path d="M187 135 v8" stroke="#99b8aa" stroke-width="2"/><path d="M193 135 v8" stroke="#99b8aa" stroke-width="2"/><path d="M199 135 v8" stroke="#99b8aa" stroke-width="2"/>
+  <path d="M139 129 v16" stroke="#0d1117" stroke-width="4"/>
+  <g fill="#0b151c" stroke="#83b4b2" stroke-width="1.2">
+   <circle cx="9" cy="9" r="2.8"/><circle cx="281" cy="9" r="2.8"/><circle cx="9" cy="119" r="2.8"/><circle cx="281" cy="119" r="2.8"/>
+  </g>
+ </g>
+ <text x="1000" y="285" text-anchor="middle" font-family="monospace" font-size="11" letter-spacing="2.2" fill="#72b4ad">GPU / COMPUTE</text>
+</g>
+</svg>
